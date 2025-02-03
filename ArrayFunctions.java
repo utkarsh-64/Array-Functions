@@ -18,8 +18,16 @@ class ArrayFunctions {
         ArrayList<Integer> odd = new ArrayList<>();
 
         for (int num : array) {
-            if (num % 2 == 0) even.add(num); // Add even numbers
-            else odd.add(num); // Add odd numbers
+            if (num % 2 == 0){
+                even.add(num); // Add even numbers
+            }    
+            else{
+                odd.add(num); // Add odd numbers
+            }    
         }
+
+        System.out.println("\n--- Odd/Even Separation ---");
+        display(even); // Display even numbers
+        display(odd); // Display odd numbers
     }
 }
