@@ -65,4 +65,30 @@ class ArrayFunctions {
         }     
         return array;
     }
+
+    // Convert array to ArrayList and vice versa, then display both
+    void displayConversions(int[] array) {
+        System.out.println("\n--- Array Conversion Demo ---");
+
+        ArrayList<Integer> arrayList = arrayToArrayList(array); // Convert array to ArrayList
+        System.out.print("Converted to ArrayList: ");
+        display(arrayList); // Display ArrayList
+
+        int[] newArray = arrayListToArray(arrayList); // Convert ArrayList back to array
+        System.out.print("Converted back to array: ");
+        display(newArray); // Display array
+    }
+
+    // Convert array to ArrayList and vice versa, then display both
+    void displayConversions(int[] array) {
+        System.out.println("\n--- Array Conversion Demo ---");
+
+        ArrayList<Integer> arrayList = arrayToArrayList(array); // Convert array to ArrayList
+        System.out.print("Converted to ArrayList: ");
+        display(arrayList); // Display ArrayList
+
+        int[] newArray = arrayListToArray(arrayList); // Convert ArrayList back to array
+        System.out.print("Converted back to array: ");
+        display(newArray); // Display array
+    }
 }
