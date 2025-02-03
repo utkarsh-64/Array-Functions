@@ -43,5 +43,8 @@ class ArrayFunctions {
                 index = i; // Update index
             }
         }
+        //Display the output for the minDist
+        System.out.println("\n--- Minimum Consecutive Difference ---");
+        System.out.println("Minimum difference: " + minDifference + " at index: " + index);
     }        
 }
